@@ -29,6 +29,6 @@ reflector \
     --save \
     /etc/pacman.d/mirrorlist
 
-pacstrap /mnt base base-devel linux linux-firmware
+pacstrap /mnt base base-devel linux linux-firmware networkmanager
 
 genfstab -U /mnt >> /mnt/etc/fstab
